@@ -1,2 +1,8 @@
-modify regexes slightly to support 50s (one liners)
-import library into a rails project
+###SwimVis###
+A library to quickly pull and parse swimming data from both HyTek and Omega sources.
+
+***
+
+###To-Do###
++ Import omega parsing code from work machine
++ Create a more robust csv export api
