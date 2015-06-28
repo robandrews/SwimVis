@@ -44,6 +44,7 @@ module SwimVis
           current_name = name[0][0]
           all_splits[current_name] = []
         else
+          
           # haaaaaaack - reaction time has format r+0.74
           next if string.match(/[abcdefghijklmnopqstuvwxyz]/i)
         	splits = string.scan(/\s+(?!\(\d+:\d+.\d+|\d+.\d+\))(\d+:\d+.\d+|\d+.\d+)/)
